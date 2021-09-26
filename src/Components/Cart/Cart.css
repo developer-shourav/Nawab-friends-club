@@ -1,9 +1,14 @@
 
+
+/* Balance-cart Style */
 .balance-cart{
-    background-color: violet;
+    background-color: #56bbffe0;
     margin-left: 20px ;
     padding: 20px;
     border-radius: 10px;
     position: fixed;
     text-align: left;
+    min-height: 300px;
+    box-shadow: 1px 1px 10px #8d8d8da9;
+
 }

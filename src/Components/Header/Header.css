@@ -1,11 +1,11 @@
 
 
 .header-container{
-    width: 1100px;
+    width: 93%;
     margin: 0 auto;
     text-align: center;
-    background-color: #E6E6E6;
+     background-color: #01013de1;
     padding: 10px;
-    color: #14279B;
-    border-radius: 20px;
+    color: #61dafb;
+    border-radius: 10px;
 }

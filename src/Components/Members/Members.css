@@ -1,10 +1,13 @@
+/* members card layout's style */
 .members-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px 15px;
+    grid-gap: 35px 25px;
    
    
 }
+
+/* ---Cart image  style ------ */
 .members-container img{
     width: 135px;
     height: 135px;
@@ -13,14 +16,20 @@
 
 }
 
+/* -----Cart style----- */
 .member{
-    background-color: darksalmon;
+    background-color: #FFEDDA;
     padding: 25px;
     border-radius: 15px;
+     box-shadow: 1px 1px 10px #8d8d8da9;
+     transition: all .3s ease;
+}
+.member:hover{
+    transform: scale(1.05);
 }
 .member p{
    margin: 4px;
-}
+} 
 .member-info{
     text-align: left;
 }
@@ -29,12 +38,18 @@
 .donation-btn{
     border: none;
     padding: 10px 60px;
-    background-color: darkblue;
-    color: white;
+    background-color: #FFB830;
+    color: black;
     display: inline-block;
     text-align: center;
     margin: auto;
     cursor: pointer;
     border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 0px 1px 2px #696969;
+    transition: all .2s;
     
+}
+.donation-btn:hover{
+    background-color: #db8f00;
 }
