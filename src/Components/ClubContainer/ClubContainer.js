@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Members from '../Members/Members';
 import './ClubContainer.css';
 const ClubContainer = () => {
+      const [members, setMembers] = useState([]) ;
+      useEffect(() =>{
+          fetch('./member.JSON')
+          .then(res => res.json())
+          .then(data => setMembers(data))
+      },[])
     return (
         <div className = 'club-contaier'>
             <div className="members-container">
-                <h1 className = 'member'>Members </h1>
-                <h1 className='member'>Members </h1>
-                <h1 className='member'>Members </h1>
                 
+                {
+                    members.map(member => <Members key = {member._id} member = {member}></Members>)
+                }
 
             </div>
 

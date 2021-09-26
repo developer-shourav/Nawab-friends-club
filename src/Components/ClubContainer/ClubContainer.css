@@ -4,18 +4,6 @@
     grid-template-columns: 3fr 1fr;
     text-align: center;
     margin-left: 50px;
+    margin-top: 50px;
 
-}
-.members-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px 15px;
-    
-   
-}
-
-.member{
-    background-color: darksalmon;
-    padding: 20px;
-    border-radius: 15px;
 }

@@ -1,0 +1,26 @@
+.members-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 15px;
+   
+   
+}
+.members-container img{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.member{
+    background-color: darksalmon;
+    padding: 25px;
+    border-radius: 15px;
+}
+.member p{
+   margin: 4px;
+}
+.member-info{
+    text-align: left;
+}
