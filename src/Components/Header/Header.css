@@ -1,0 +1,11 @@
+
+
+.header-container{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E6E6E6;
+    padding: 10px;
+    color: #14279B;
+    border-radius: 20px;
+}
