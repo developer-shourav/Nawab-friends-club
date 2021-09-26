@@ -1,6 +1,6 @@
 # The Nawabgonj Friends Club
 
-This is our official website  [Create React App](https://nawabjong-friends-club-by-shourav.netlify.app/).
+This is our official website  [ Nawabgonj Friends Club](https://nawabjong-friends-club-by-shourav.netlify.app/).
 
 ## Available Scripts
 
