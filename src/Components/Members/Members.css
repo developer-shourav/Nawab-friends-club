@@ -24,3 +24,17 @@
 .member-info{
     text-align: left;
 }
+
+
+.donation-btn{
+    border: none;
+    padding: 10px 60px;
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}

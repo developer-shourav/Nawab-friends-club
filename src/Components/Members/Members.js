@@ -3,7 +3,6 @@ import React from 'react';
 import './Members.css' ;
 
 const Members = (props) => {
-    console.log(props.member);
     const { name, age, yearlyINcome, canDonet, picture, company, email, phone} = props.member ;
     
     return (
@@ -16,8 +15,12 @@ const Members = (props) => {
                 <p>Email: {email}</p>
                 <p>Phone: {phone}</p>
                 <p>Age: {age}</p>
-                <p>Yearly income : <b>{yearlyINcome} </b></p>
-                <h3>Can Donaet: <strong>{canDonet}</strong></h3>
+                <p>Monthly income : <b>${yearlyINcome} </b></p>
+                <h3>Can Donaet: <strong>${canDonet}</strong></h3>
+                <button 
+                    onClick={() => props.handleAddAcount(props.member)}
+                className = 'donation-btn'
+                >Donate to club account</button>
             </div>
 
         </div>

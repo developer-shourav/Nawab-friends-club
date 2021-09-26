@@ -1,0 +1,9 @@
+
+.balance-cart{
+    background-color: violet;
+    margin-left: 20px ;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    text-align: left;
+}
