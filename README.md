@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# The Nawabgonj Friends Club
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is our official website  [Create React App](https://nawabjong-friends-club-by-shourav.netlify.app/).
 
 ## Available Scripts
 
