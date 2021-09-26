@@ -7,12 +7,13 @@ import './Cart.css' ;
 
 const Cart = (props) => {
     const {balance} = props ;
+    // Default value
     let total = 0 ;
     let memberName = '';
     const userIcon = <FontAwesomeIcon icon={faUser} />
     const balanceIcon = <FontAwesomeIcon icon={faDonate} />
     for( const member of balance) {
-        // Sum account balance
+        // Sum account balance 
         total = parseFloat(total) + parseFloat(member.canDonet) ;
         memberName = memberName  + `  ${member.name }   ` ;
     }
