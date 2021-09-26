@@ -7,7 +7,7 @@ import './Cart.css' ;
 
 const Cart = (props) => {
     const {balance} = props ;
-    // Default value
+   // default values 
     let total = 0 ;
     let memberName = '';
     const userIcon = <FontAwesomeIcon icon={faUser} />
